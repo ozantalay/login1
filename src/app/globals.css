@@ -2,3 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Londrina+Outline&display=swap');
+
+h1 {
+  font-size: 72px;
+  color: transparent; 
+  -webkit-text-stroke: 2px rgb(238, 7, 7);
+  
+}
+.clip-path-clip {
+  clip-path: polygon(70% 0, 15% 100%, 100% 100%, 100% 0); 
+  position: absolute;
+}
+body{
+  margin:0;
+  padding: 0;
+}
+.flex-row {
+  width: 90%;
+  height: 90%;
+}
